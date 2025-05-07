@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="images/profile.jpg" alt="Your Name" class="profile-img" />
+      <div class="intro">
+        <h1>Hi, I'm Your Name</h1>
+        <p>Web Developer | Python Enthusiast | Excel Expert</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer with experience in HTML, CSS, JavaScript, Python, and Excel. I love building interactive websites and useful tools.</p>
+  </section>  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Python (Flask, Django, Pandas)</li>
+      <li>Excel (Pivot Tables, Charts, Functions)</li>
+    </ul>
+  </section>  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="images/excel-dashboard.jpg" alt="Sales Dashboard" class="project-img" />
+      <h3>Sales Dashboard (Excel)</h3>
+      <p>Analyzed sales data with charts and slicers for monthly reporting.</p>
+    </div>
+    <div class="project">
+      <img src="images/web-scraper.jpg" alt="Web Scraper" class="project-img" />
+      <h3>Web Scraper (Python)</h3>
+      <p>Scraped e-commerce data and exported to Excel for analysis.</p>
+    </div>
+    <div class="project">
+      <img src="images/portfolio-website.jpg" alt="Portfolio Website" class="project-img" />
+      <h3>Portfolio Website</h3>
+      <p>Created a responsive personal website using HTML and CSS.</p>
+    </div>
+  </section>  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
